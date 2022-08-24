@@ -86,7 +86,7 @@ body {
   background: var(--mainWhite);
   top: 0;
   right: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
   background: rgba(255, 255, 255, 0.5);
   width: 0;
   overflow: hidden;
@@ -97,14 +97,14 @@ body {
   transform: rotateY(-360deg);
 }
 .cart-item {
-  transition: all 2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 /* end of cart */
 /* cart item */
 .cart-item-remove {
   color: var(--mainPink);
-  transition: all 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .cart-item-remove:hover {
   transform: scale(1.1);
@@ -147,7 +147,7 @@ body {
   height: 100%;
   outline: 0.5rem solid var(--mainYellow);
   z-index: -1;
-  transition: all 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .about-img__container:hover:before {
   top: 0;
@@ -166,7 +166,7 @@ body {
   cursor: pointer;
 }
 .store-img {
-  transition: all 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .img-container:hover .store-img {
   transform: scale(1.2);
@@ -178,7 +178,7 @@ body {
   padding: 0.75rem;
   background: var(--mainYellow);
   border-top-left-radius: 1rem;
-  transition: all 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
   transform: translate(100%, 100%);
 }
 .img-container:hover .store-item-icon {
@@ -234,7 +234,7 @@ body {
   position: absolute;
   font-size: 4rem;
   color: var(--mainPink);
-  transition: all 1s linear;
+  transition: all 0.4s linear;
   cursor: pointer;
 }
 .lightbox-control:hover {
